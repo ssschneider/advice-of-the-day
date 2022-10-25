@@ -21,3 +21,9 @@ Project build with the intent of testing and exercising my skills on JS. The Adv
 ---
 
 ## Project
+
+- Versão Desktop:
+![](src/gifs/desktop.gif)
+
+- Versão Mobile:
+![](src/gifs/mobile.gif)
