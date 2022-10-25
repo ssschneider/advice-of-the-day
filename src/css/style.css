@@ -1,0 +1,53 @@
+body {
+    background: #0e0e0e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #434343, #0e0e0e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #434343, #0e0e0e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #f1f1f1;
+    font-size: 7rem;
+    margin: 100px auto 0;
+}
+
+.advice-place {
+    background-color: #f1f1f1;
+    border-radius: 16px;
+    font-size: 3.2rem;
+    padding: 48px;
+    max-width: 600px;
+    margin: 32px 0 24px;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+}
+
+button {
+    font-size: 2.2rem;
+    font-weight: 600;
+    padding: 8px 50px;
+    border-radius: 8px;
+    border: 0px;
+    cursor: pointer;
+    transition: 0.8s ease-in-out;
+}
+
+button:hover {
+    letter-spacing: 5px;
+}
+
+h1::selection {
+    background-color: #f1f1f1;
+    color: #0e0e0e;
+}
+
+.advice-place::selection, button::selection {
+    background-color: #0e0e0e;
+    color: #f1f1f1;
+}
